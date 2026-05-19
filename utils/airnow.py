@@ -46,7 +46,7 @@ def fetch_date_range(
     start: date,
     end: date,
     pollutant: str = "PM2.5",
-    sleep_sec: float = 0.3,
+    sleep_sec: float = 1.0,
 ) -> pd.DataFrame:
     """
     Loop over a date range and collect AQI observations into a DataFrame.
